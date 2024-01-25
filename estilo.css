@@ -2,5 +2,21 @@ body{
     background-color: rgb(197, 224, 222);
     font-family: calibri; color:rgb(5, 11, 36);
     font-size: 18px;
-    color:#333333;
+    color:#010f0b;
 }
+
+header{ 
+    background-color: #d46bba;
+}
+
+header a{
+    color:#15e966;
+    text-decoration: none;
+}
+
+article a{background-color: black;
+color:white;
+text-decoration: none;
+}
+footer {background-color: black;
+color:white}
