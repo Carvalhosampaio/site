@@ -18,19 +18,37 @@ body{
     color:#15e966;
     text-decoration: none;
 }
+.botao {
+    background-color: rgb(157, 157, 163);
+}
+.menu {
 
-article {
-    background-color: blue;
+display: flex;
+list-style: none;
+margin-left: auto;
+}
+.menu a:hover {
+    color:blueviolet
 }
 
-article a{background-color: black;
+
+.botao a{background-color: black;
 color:white;
 text-decoration: none;
 padding: 10;
 }
 .rodape {background-color: black;
 color:white;
-padding: 30px;}
+padding: 30px;
+}
 main {
     padding: 30px;
+}
+.navegacao {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+li {
+    padding-right: 20px;
 }
