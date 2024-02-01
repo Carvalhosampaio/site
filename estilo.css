@@ -17,7 +17,7 @@ body{
     background-color: yellow;
     padding-left:2%;
     margin-bottom: auto;
-width: 900px;
+width: 600px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -37,6 +37,7 @@ margin-right: auto;
     background-color: rgb(157, 157, 163);
     text-decoration: none;
     margin: 10px;
+    border-radius: 5px;
 }
 .menu {
 
@@ -59,7 +60,11 @@ margin-left: auto;
     font-size: 160%;
     color:black
 }
-
+.grade {
+ display:grid;
+ grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+ gap: 13px    
+}
 
 .botao a{background-color: black;
 color:white;
@@ -67,6 +72,7 @@ text-decoration: none;
 padding: 10;
 margin: 10px;
 }
+.botao:hover {background-color: greenyellow;}
 .rodape {background-color: black;
 color:white;
 padding: 30px;
